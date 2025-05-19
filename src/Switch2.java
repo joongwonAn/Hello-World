@@ -1,39 +1,31 @@
 public class Switch2 {
     public static void main(String[] args) {
-        /*
-        A+  :100
-        A   : 90-99
-        B   : 80-89
-        C   : 70-79
-        D   : 60-69
-        F   : 0-59
-         */
-        // 시험 점수
-        int score = 97;
+       int number = 134354;
 
-        // 성적
-        String greade;
-
-        switch (score/10) {
-            case 10:
-                greade = "A+";
+        switch (number % 7) {
+            case 0:
+                System.out.println("Zero");
                 break;
-            case 9:
-                greade = "A";
+            case 1:
+                System.out.println("One");
                 break;
-            case 8:
-                greade = "B";
+            case 2:
+                System.out.println("Two");
                 break;
-            case 7:
-                greade = "C";
+            case 3:
+                System.out.println("Three");
+                break;
+            case 4:
+                System.out.println("Four");
+                break;
+            case 5:
+                System.out.println("Five");
                 break;
             case 6:
-                greade = "D";
+                System.out.println("Six");
                 break;
             default:
-                greade = "F";
                 break;
         }
-        System.out.println(greade);
     }
 }
