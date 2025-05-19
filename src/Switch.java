@@ -53,5 +53,6 @@ public class Switch {
                 System.out.println("다시 수강해주세요.");
                 break;
         }
+
     }
 }
